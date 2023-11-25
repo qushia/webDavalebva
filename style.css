@@ -1,0 +1,380 @@
+.movingtext {
+    text-shadow: 0px 0px 20px #00f9ff;
+    color: white;
+}
+ 
+  
+
+.firstpage {
+    width: 100px;
+    height: 100px;
+}
+
+.therdpage {
+    width: 100px;
+    height: 100px;
+   
+
+
+}
+
+#pirveli {
+    position: absolute;
+    bottom: 223px;
+    left: 740px;
+    box-shadow: -8px 14px 20px 0px red;
+}
+.logo3 {
+      width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+    border: 2px solid #d4b40a;
+    
+}
+
+
+.logos {
+ display: flex;
+    justify-content: space-evenly;
+  
+
+}
+.backfull {
+    background-image: url(bacjgroun.jpg);
+    height: 102%;
+    width: 100%;
+    
+ 
+}
+body {
+    background-color: black;
+}
+.user {
+    display: flex;
+    gap: 5px;
+    margin-top: 303px;
+    align-items: center;
+    width: 289px;
+    margin-left: 50px;
+}
+.iconprofil {
+   
+    height: 40px;
+}
+.userss {
+    width: 100px;
+    height: 30px;
+    color: gray;
+    text-decoration: underline;
+  
+}
+
+.slider {
+    width: 60px;
+    height: 77.6%px;
+    margin-left: -8px;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: ease-in-out 0.3s;
+    overflow: hidden;
+    margin-top: 39px;
+    background-color:  rgb(34, 34, 34);
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-family: system-ui;
+     font-size: 17px;
+     box-shadow: 0 0 10px black;
+     border-radius: 5px;
+     cursor: pointer;
+
+}
+.slider:hover {
+    width: 400px;
+}
+.slider:hover > .item > .text {
+    opacity: 1;
+}
+hr {
+    height: 1px;
+    color: #919191;
+    margin: 15px 0;
+
+}
+.item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+
+}
+.item .icon {
+    width: 40px;
+    height: 35px;
+    flex-shrink: 0;
+    fill: #424242;
+}
+.item .text {
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    transition-delay: .2s;
+    margin-left: 15px;
+    white-space: nowrap;
+}
+.video {
+    position: absolute;
+    top: 264px;
+    width: 1176PX;
+    left: 713PX;
+    border: 2px solid gold;
+    border-radius: 10px;
+    cursor: none;
+
+}
+
+   
+
+.gapartoebebi {
+    display: flex;
+    height: 12rem;
+    gap: 1rem;
+    cursor: pointer;
+    width: 500px;
+    position: absolute;
+    bottom: 20px;
+    left: 671px;
+  
+  }
+  .gapartoebebi > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+
+  }
+  .gapartoebebi > div:hover {
+    flex: 5;
+  }
+  .background {
+   
+    width: 800px;
+    position: absolute;
+    bottom: 13px;
+    left: 56px;
+    top: 10px;
+    
+  }
+
+.sdasd {
+    width: 100%;
+    height: 4000px;
+    background-color: black;
+}
+
+.mainpag {
+    width: 100%;
+     display: flex;
+     height: 878%;
+     justify-content: center;
+    background-color: rgb(255, 255, 255);
+    background-image: url(back.jpg);
+    box-shadow: 0px -20px 20px 8px;
+}
+.page1 {
+    width: 1000px;
+    background-color: black;
+    height: 700px;
+    background-image: url(galaxyback.jpg);
+    box-shadow: 0px 20px 20px 20px;
+   
+     
+  
+}
+.gameinpo {
+    width: 800px;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 94px;
+    gap: 20px;
+    
+   
+}
+.buttonss {
+    width: 241px;
+    height: 53px;
+    border-radius: 20px;
+    border: 3px solid green;
+    background-color: rgb(21, 255, 21);
+    box-shadow: 0 0 10px black;
+    color: white;
+    font-size: 27.5px;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    font-family: cursive;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-decoration: none;
+   
+
+}
+.linkdow {
+    text-decoration: none;
+}
+
+.dowloand_errow {
+    width: 40px;
+    height: 40px;
+   
+}
+
+.imgsize {
+    width: 380px;
+    height: 500px;
+    border-radius: 10px;
+    cursor: grabbing;
+    box-shadow: 0 0 10px;
+   
+}
+.buttons > button {
+  height: 30px;
+  border-radius: 4px;
+  background-color: #009699;
+  color: white;
+  font-family: monospace;
+  cursor: pointer;
+  box-shadow: 0 0 10px;
+
+}
+.inpo > h3 {
+    border-bottom: 2px solid black;
+    display: inline;
+   
+}
+.inpo > p {
+    font-weight: bold;
+}
+
+   
+
+.footer {
+    width: 100%;
+    height: 392px;
+    background-color: red;
+    position: absolute;
+    bottom: -403px;
+    right: 0px;
+    background-image: url(Footer.png);
+    background-size:cover;
+    box-shadow: inset 1px 20px 20px 0px black;
+    position: absolute;
+    bottom: -8454px;
+}
+.maniu {
+    display: flex;
+    color: white;
+    margin-left: 78px;
+    gap: 100px;
+    width: 485px;
+}
+#mcolor {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: initial;
+}
+.dowloandversion {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    margin-top: 113px;
+    margin-left: 158px;
+}
+.videoback {
+    width: 62%;
+    height: 72%;
+    position: absolute;
+    left: 36%;
+    bottom: 3%;
+    box-shadow: 0 0 20px 20px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cideot {
+    width: 500px;
+    height: 400px;
+}
+.part_search {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    
+
+  
+}
+.input_search {
+    margin-top: 10px;
+    width: 15%;
+    height: 32.5px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-image: url(inputback.webp);
+   
+}
+.input_search:hover{
+  border:2px solid gold;
+  
+  
+}
+.part_search > button {
+    width:100px ;
+    height: 35px;
+    border-radius: 6px;
+    border: 2px solid orangered;
+    background-color: #ffe000;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    text-shadow: 0 0 10px white;
+    cursor: pointer;
+    margin-right: 6px;
+    font-size: 20px;
+    font-family: monospace;
+    
+}
+
+
+
+.imageiconf {
+    width: 48px;
+    height: 48px;
+    
+}
+.imageiconi {
+    width: 50px;
+    height: 50px;
+    
+}
+.imageicong{
+    width: 50px;
+    height: 50px;
+    
+}
+.imageicont{
+    width: 89px;
+    height: 50px;
+    margin-left: -16px;
+    
+}
+.socila_icon {
+    display: flex;
+    gap: 50px;
+    margin-left: 1478px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+

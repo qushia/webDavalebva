@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+      overflow: hidden;  
+}
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -954px;
+}
+.conteiner > p {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px aqua;
+    display: inline;
+    
+}
+.addtext {
+   
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px red;
+    display: inline;
+   
+}
+button {
+   
+    position: relative;
+    bottom: 523px;
+    left: 900px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: aqua;
+    box-shadow: 0 0 10px;
+    font-size: 26px;
+    cursor: pointer;
+    font-family: monospace;
+}

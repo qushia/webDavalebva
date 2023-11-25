@@ -1,0 +1,129 @@
+body {
+    background-image: url(assassin-s-creed-unity-game-1080P-wallpaper.jpg);
+    background-size: cover;
+}
+.conteiner {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -5px -6px 12px black, 6px 6px 12px black;;
+    border-radius: 20px;
+    
+}
+.position1 {
+width: 550px;
+height: 600px;
+background-color: blue;
+border-top-left-radius: 20px;
+border-bottom-left-radius:20px;
+background-image: url(assassin-s-creed-unity-game-1080P-wallpaper.jpg);
+background-size: cover;
+}
+.position2 {
+    width: 550px;
+    height: 600px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+
+}
+.regposition1 {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 600px;
+}
+.button {
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+.button1 {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px black, -6px -6px 12px white;
+cursor: pointer;
+}
+.button1::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(1, 213, 255) 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+.button1:hover::before {
+    width: 9em;
+
+}
+
+
+#textshadow {
+    text-shadow: 0 0 10px black;
+    
+}
+
+
+.regstyle {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 600px;
+
+}
+.regsize2 {
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 50px;
+    color: white;
+   
+}
+.buttonreg {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.inputsize {
+    width: 250px;
+    height: 30px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.button2 {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: inset -7px 6px 14px 4px black;
+cursor: pointer;
+}
+.google {
+    width: 20px;
+    height: 15px;
+}
